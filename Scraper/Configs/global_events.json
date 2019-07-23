@@ -1,0 +1,27 @@
+{
+    "_comment": "If item visible, then do the action",
+
+    "_comment": "Google reCaptcha",
+    "reCaptcha": {
+        "css_mode": true,
+        "id": ".g-recaptcha",
+        "action": ""
+    },
+
+    "_comment": "Some other captchas -> test site",
+    "Captcha": {
+        "css_mode": true,
+        "id": "form#registration",
+        "url": "http://www.standards-schmandards.com/exhibits/captcha/",
+        
+        "action": {
+            "method": "solve_captcha",
+            "css_mode": true,
+            "args": {
+              "image": "form#registration > img",
+              "textbox": "input#captcha",
+              "button": "input"
+            }
+        }
+    }
+}

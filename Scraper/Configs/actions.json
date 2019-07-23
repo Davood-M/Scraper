@@ -1,0 +1,9 @@
+{
+	"__comment": "Action Name:Action File Name",
+	"get_data": "get_data",
+    "get_url": "get_url",
+    "fill_form": "sub_form",
+    "if_visible": "if_item_visible",
+    "solve_captcha": "solve_captcha",
+    "wait": "wait_time"
+}
